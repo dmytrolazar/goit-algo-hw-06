@@ -1,6 +1,5 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-from dijkstra import dijkstra
 
 G = nx.Graph()
 with open('data.txt', 'r', encoding='utf8') as file:
